@@ -80,7 +80,7 @@ function CreateBudget({refreshData}) {
                 </div>
                 <div className="mt-2">
                   <h2 className="text-black font-medium my-1">Jumlah Pengeluaran</h2>
-                  <Input type="number" placeholder="cth. 50.000"
+                  <Input type="number" placeholder="cth. 50000"
                   onChange={(e)=>setAmount(e.target.value)}/>
                 </div>
 
